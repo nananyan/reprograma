@@ -1,0 +1,150 @@
+DICAS:
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTML
+
+https://origamid.com/projetos/flexbox-guia-completo/
+
+https://fonts.google.com/
+
+https://www.w3schools.com/
+
+https://www.w3schools.com/cssref/
+
+
+Extensões VSCODE:
+
+-Dracula Official
+	
+-Material Icon Theme
+
+-Beautify
+
+-Color Highlight
+
+
+
+
+------------------------------------------INDEX.HTML-----------------------------------------------------
+
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300;400;500&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <title>Minha primeira página - Margaret Hamilson</title>
+</head>
+
+<body>
+
+  <header class="banner-site">
+    <h1 class="titulo-site">Oi, eu sou a Margaret Hamilton</h1>
+    <h2 class="subtitulo-site">Conheça mais sobre mim!</h2>
+
+    <a class="ancora-conheca-sobre-mim" href="https://www.reprograma.com.br/" target="_blank">Veja mais sobre mim</a>
+  </header>
+
+  <h2 class="titulo-sobre-mim">Um pouco mais sobre mim</h2>
+  
+  <section class="section-sobre-mim">
+
+    <div class="div-lado-esquerdo">
+      <p class="paragrafo-sobre-mim">Meu nome é Allana Evellyn, e eu sou uma desenvolvedora Front-end de Recife - PE</p>
+      <p class="paragrafo-sobre-mim">Sou bióloga, fiz transição de carreira para a área de TI em 2021 e hoje trabalho como desenvolvedora Front-end em uma startup chamada Sanar.</p>
+      <a class="ancora-conheca-meu-site" href="https://www.reprograma.com.br/" target="_blank">Conheça o meu site</a>
+    </div>
+
+    <div class="div-lado-direito">
+      <h2 class="titulo-minhas-habilidades">Minhas habilidades></h2>
+
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Java</li>
+        <li>React</li>
+      </ul>
+    </div>
+
+  </section>
+
+</body>
+
+</html>
+------------------------------------------STYLE.CSS-----------------------------------------------------
+
+* {
+  margin: 0;
+  padding: 0; 
+  font-family: 'Roboto', sans-serif;
+}
+
+.banner-site {
+  background-image: url("../img/banner-bg.png");
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-site {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.subtitulo-site {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.ancora-conheca-sobre-mim {
+  background-color: white;
+  border: 1px solid #791186;
+  text-decoration: none;
+  padding: 6px 20px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  color: #791186;
+  font-weight: bold;
+}
+
+.section-sobre-mim {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  padding: 50px;
+}
+
+.div-lado-esquerdo {
+  margin-right: 50px;
+}
+
+.paragrafo-sobre-mim {
+  margin-bottom: 20px;
+}
+
+.titulo-sobre-mim {
+  color: #c4c4c4;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.titulo-minhas-habilidades {
+  color: #c4c4c4;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.ancora-conheca-meu-site {
+  background-color: #791186;
+  color: white;
+  text-decoration: none;
+  padding: 6px 20px;
+  border-radius: 20px;
+}

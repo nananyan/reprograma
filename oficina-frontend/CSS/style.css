@@ -1,0 +1,161 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner-site {
+    background-image: url("../IMG/banner-tigre.png");
+    width: 100vw;
+    background-size: cover;
+    background-position-y: 70%;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titulo-site {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-weight: 400px;
+}
+
+.subtitulo-site {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.ancora-conheca-sobre-mim {
+    background-color: black;
+    border: 1px solid #fbba00;
+    text-decoration: none;
+    padding: 6px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: #fbba00;
+    font-weight: bold; 
+
+}
+
+.ancora-conheca-sobre-mim:hover {
+    background-color: #504f4e;
+    color:#fbba00;
+}
+
+.section-sobre-mim {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 50px;
+    width: 70%;
+}
+
+.div-lado-esquerdo {
+    margin-right: 50px;
+    width: 80%;
+}
+
+.div-lado-direito {
+    margin-left:80px;
+    align-items: left;
+}
+
+.titulo-sobre-mim {
+    color: #504f4e;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 50px;
+    font-weight:bolder;
+}
+
+.paragrafo-sobre-mim {
+    margin-bottom: 30px;
+}
+
+.titulo-minhas-habilidades {
+    color: #fbba00;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.ancora-conheca-meu-site {
+    color:black;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid #fbba00;
+    text-decoration: none;
+    padding: 6px 20px;
+    border-radius: 20px;
+}
+
+.ancora-conheca-meu-site:hover {
+    background-color: #fbba00;
+    color:black;
+}
+
+.section-redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.destaque-nome {
+    color: #fbba00;
+    font-weight: bolder;
+}
+
+.icone-rede-social {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.card-redes-sociais {
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fbba00;
+    border-radius: 30px;
+}
+
+.card-redes-sociais:hover {
+    background-color: #504f4e;
+    color: #fbba00;
+}
+
+.nome-rede-social {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+} 
+
+.nome-usuario-rede-social { 
+    font-size: 15px;
+}
+
+
+.div-espaco-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.sobremim-alinhado {
+    align-items: center;
+    margin-left: 250px;
+}
